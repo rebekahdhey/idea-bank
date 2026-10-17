@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+
+  /* Main leafy green */
+  --color-leaf-50: #f4fbf1;
+  --color-leaf-100: #e1f4da;
+  --color-leaf-200: #c3e8b5;
+  --color-leaf-400: #7ccb5f;
+  --color-leaf-500: #5bb53d;
+  --color-leaf-600: #3f9428;
+
+  /* Warm cream and soil */
+  --color-cream-50: #fffdf7;
+  --color-cream-100: #fdf6e3;
+  --color-soil-500: #a47551;
+
+  /* Pink for blooms */
+  --color-bloom-100: #ffe6ef;
+  --color-bloom-400: #f9729f;
+}
+
+body {
+  background-color: var(--color-cream-50);
+  color: #3f4a3c;
+}
